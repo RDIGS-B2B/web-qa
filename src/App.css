@@ -1,0 +1,73 @@
+.body{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+}
+.App{
+  width:100vw;
+  height:100vh;
+  overflow-x: hidden;
+}
+.total-lead{
+  padding:1px;
+  text-align: center;
+background-color: #B2DFDB;
+width:100%;
+}
+.block{
+  box-shadow:0px 0px 10px rgb(139, 137, 137);
+  text-align: center;
+  padding:5px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius:20px ;
+}
+.total-lead .number{
+  font-size:2rem;
+}
+.title{
+  font-size:1.2rem;
+  font-weight: 500;
+}
+.number{
+font-size:1.6rem;
+font-weight:600;
+}
+.block:hover{
+  box-shadow:0px 0px 10px #b2dfdb;
+
+  background-color:#B2DFDB;
+  color:white;
+  transition: 0.6ms;
+}
+.logo{
+  background-color:rgb(59, 116, 238);
+  padding:2px;
+}
+.logo img{
+  width:150px;
+}
+.date-time{
+  color:#fff;
+  font-weight:600;
+}
+.date-time span{
+  padding:1rem;
+  font-size:1.2rem;
+
+}
+
+@media screen and (max-width: 600px) {
+  .title{
+    font-size:1.2rem ;
+  }
+  .number{
+    font-size:1.5rem;
+  }
+  .img img{
+    display:none;
+  }
+}
+
+
+
